@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #e60023;
+}
+
+body {
+  background: rgb(230, 0, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 0, 35, 0.05) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(230, 0, 35, 0.05) 100%
+  );
+}
