@@ -1,7 +1,6 @@
 import styles from "./About.module.css";
 import PhotoSource from "../../../public/my-photo.jpg";
 import Image from "next/image";
-import Technologies from "../Technologies/Technologies";
 import Title from "../Title/Title";
 import Stack from "../Stack/Stack";
 
@@ -34,7 +33,7 @@ const About = () => {
         oportunidad de poder expresar mi interés y espero poder contribuir con
         mis habilidades y entusiasmo en futuras oportunidades.
       </p>
-      <div className={styles.stackContainer}>
+      <div>
         <Title title="Stack" />
         <Stack />
       </div>

@@ -2,3 +2,18 @@
   width: 100px;
   height: 100px;
 }
+
+.stackContainer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.image {
+  transition: all 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.2, 1.2) rotate(360deg);
+}
