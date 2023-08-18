@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Muebles Valencia Project",
+    "repo": "https://github.com/Yorozuya2001/ProyectoCoderMVP.git",
+    "url": "https://muebles-valencia-project.vercel.app/"
+  },
+  {
+    "name": "Tribute Page",
+    "repo": "https://github.com/Yorozuya2001/project-for-free-code-camp-tribute.git",
+    "url": "https://yorozuya2001.github.io/project-for-free-code-camp-tribute/"
+  },
+  {
+    "name": "Survey Form",
+    "repo": "https://github.com/Yorozuya2001/form-for-free-code-camp.git",
+    "url": "https://yorozuya2001.github.io/form-for-free-code-camp/"
+  },
+  {
+    "name": "Technical Documentation",
+    "repo": "https://github.com/Yorozuya2001/technical-documentation-for-free-code-camp.git",
+    "url": "https://yorozuya2001.github.io/technical-documentation-for-free-code-camp/#Anatom%C3%ADa_de_un_elemento_HTML"
+  },
+  {
+    "name": "Landing Page",
+    "repo": "https://github.com/Yorozuya2001/landing-page-for-free-code-camp.git",
+    "url": "https://yorozuya2001.github.io/landing-page-for-free-code-camp/"
+  },
+  {
+    "name": "E-commerce JS",
+    "repo": "https://github.com/Yorozuya2001/JavaScriptCoderHouse.git",
+    "url": "https://java-script-coder-house.vercel.app/"
+  },
+  {
+    "name": "Aerodynamic Store",
+    "img": "https://drive.google.com/uc?export=download&id=15eFE0Z1lyXQquDfUsxA_U2djiv-v72za/view",
+    "repo": "https://github.com/Yorozuya2001/ReactProject-V2.git",
+    "url": "https://aerodynamic-sotre.netlify.app/"
+  },
+  {
+    "name": "Instituto Médico Veterinario",
+    "repo": "https://github.com/Yorozuya2001/Instituto-Medico-Veterinario.git",
+    "url": "https://instituto-medico-freelance.netlify.app/"
+  },
+  {
+    "name": "Rick y Morty",
+    "repo": "https://github.com/Yorozuya2001/Rick-And-Morty-React",
+    "url": "https://rick-and-morty-frontend-theta.vercel.app/"
+  },
+  {
+    "name": "Test Api Meli",
+    "repo": "https://github.com/Yorozuya2001/Learning-MercadoLibre-Api",
+    "url": "https://yorozuya2001.github.io/Learning-MercadoLibre-Api/"
+  },
+  {
+    "name": "Gastro Web",
+    "repo": "https://github.com/Yorozuya2001/GastroWeb.git",
+    "url": "https://gastro-web-frontend.vercel.app/"
+  },
+  {
+    "name": "ToolsMatch",
+    "repo": "https://github.com/Jefersonsteven/tools-match",
+    "url": "https://tools-match-eight.vercel.app/"
+  },
+  {
+    "name": "Game Club",
+    "repo": "https://www.behance.net/gallery/149539787/Game-Club",
+    "url": "https://www.figma.com/proto/UigA6uNzAw1O14sYIpccIC?kind=&node-id=37:2902&page-id=0:1&scaling=scale-down&starting-point-node-id=37:2902&viewport=623,-2239,0.55"
+  }
+]

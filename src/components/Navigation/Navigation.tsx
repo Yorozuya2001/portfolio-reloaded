@@ -1,7 +1,5 @@
 import Link from "next/link";
 import styles from "./Navigation.module.css";
-import Logo from "../../../public/logo.svg";
-import Image from "next/image";
 
 const Navigation = () => {
   return (
