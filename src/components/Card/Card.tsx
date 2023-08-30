@@ -1,21 +1,32 @@
 import Image from "next/image";
-import styles from "./Card.module.css";
 import imagen from "../../../public/projectsPhotos/aerodynamic-store.png";
-const Card = () => {
+import styles from "./Card.module.css";
+import Link from "next/link";
+
+interface CardProps {
+  name: string;
+  url: string;
+  repo: string;
+}
+
+const Card: React.FC<CardProps> = ({ name, url, repo }) => {
   return (
-    <div className={`${styles.cardBg} w-72 rounded  overflow-hidden shadow-lg`}>
+    <div
+      className={`${styles.cardBg} ${styles.cardAnimation} w-72 rounded  overflow-hidden shadow-lg`}
+    >
       <Image className="w-full" src={imagen} alt="Sunset in the mountains" />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+        <div className="font-bold text-xl mb-2">{name}</div>
       </div>
-      <div className="px-6 pt-4 pb-2">
-        <span
-          className={`${styles.span} inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2`}
-        >
-          #photography
-        </span>
-        <button>Sitio Web</button>
-        <button>Repositorio de Github</button>
+      <div className="px-6 pt-4 pb-2 flex flex-col">
+        <div className="flex flex-col justify-center items-center gap-3">
+          <Link href={url} className={styles.cardButton}>
+            Deploy 📁
+          </Link>
+          <Link href={repo} className={styles.cardButton}>
+            Repositorio 🚀
+          </Link>
+        </div>
       </div>
     </div>
   );
